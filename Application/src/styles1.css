@@ -1,0 +1,31 @@
+.root {
+  -fx-background-color: linear-gradient(to bottom, white, silver);
+}
+.tree-cell:selected {
+  -fx-background-color: linear-gradient(to top, white, rgb(173, 173, 173));
+  -fx-font-size: 15;
+}
+
+.padded-menu {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-box-border: transparent;
+  -fx-padding: 0 0 0 20;
+}
+.menu:showing {
+  -fx-background-color: linear-gradient(to top, white, rgb(173, 173, 173));
+  -fx-font-size: 13;
+}
+.top-hbox {
+  -fx-padding: 10 0 10 15;
+}
+.button:hover {
+  -fx-background-color: lightgray;
+  -fx-cursor: hand;
+}
+.bottom-toolbar {
+  -fx-alignment: center;
+}
+.bottom-toolbar .button {
+  -fx-padding: 5 10;
+}

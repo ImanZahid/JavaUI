@@ -1,0 +1,52 @@
+/* Styling the root element */
+.root {
+  -fx-background-color: linear-gradient(to bottom, #000000, #032541);
+}
+.button .icon {
+  -fx-max-width: 5px;
+  -fx-max-height: 5px;
+  -fx-fit-to-width: true;
+  -fx-fit-to-height: true;
+  -fx-preserve-ratio: true;
+}
+
+.button-neon {
+  -fx-font-family: "Arial";
+  -fx-text-fill: #fff;
+  -fx-background-color: #0a2b44;
+  -fx-font-size: 15;
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+  -fx-padding: 15 20 15 20;
+  -fx-effect: dropshadow(
+    three-pass-box,
+    rgb(126, 169, 204),
+    10,
+    0,
+    0,
+    0
+  ); /* This gives the neon effect */
+}
+
+.button-neon:hover {
+  -fx-background-color: linear-gradient(to bottom, #233d75, #032541);
+  -fx-font-weight: bold;
+}
+
+.title-bar {
+  -fx-padding: 10 15 10 15; /* Added 15px padding on right and left */
+  -fx-background-color: linear-gradient(to bottom, white, silver);
+  -fx-spacing: 5px; /* This adds spacing between elements inside the HBox */
+}
+
+/* Apply hover effect: Light grey background */
+.click-here:hover {
+  -fx-background-color: #f0f0f0;
+  -fx-font-weight: bold;
+}
+
+.content-box {
+  -fx-text-fill: black;
+  -fx-padding: 30 80 30 80; /* Top Right Bottom Left */
+  -fx-background-color: rgb(255, 245, 245);
+}
